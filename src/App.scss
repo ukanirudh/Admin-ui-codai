@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+  text-align: center;
+  padding: 16px;
+}
+
+.table-footer {
+  display: flex;
+  .page-btn-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.row-selected {
+  background-color: rgb(222, 226, 230);
+}
+
+.actions-row {
+  display: flex;
+  .btn-space {
+    margin: 0 10px;
+  }
+}
